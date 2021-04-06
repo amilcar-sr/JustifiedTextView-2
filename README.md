@@ -15,6 +15,24 @@ If your min API level is 26, I recommend **TextView.setJustificationMode(int)**.
 ![alt portrait](https://raw.githubusercontent.com/amilcar-sr/amilcar-sr.github.io/master/JustifiedTextView/portrait.png)
 
 
+## Add JustifiedTextView to your project
+
+JustifiedTextView is available on Maven Central. Please make sure you're using the latest version by [checking here](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.codesgood%22%20AND%20a%3A%22justifiedtextview%22)
+
+Gradle:
+```
+implementation 'com.codesgood:justifiedtextview:2.0.0'
+```
+
+Maven:
+```
+<dependency>
+    <groupId>com.codesgood</groupId>
+    <artifactId>justifiedtextview</artifactId>
+    <version>2.0.0</version>
+</dependency>
+```
+
 
 ## Usage
 
@@ -41,25 +59,6 @@ Here is an example:
 TextView justifiedParagraph = findViewById(R.id.tv_justified_paragraph);
 justifiedParagraph.setText(R.string.lorem_ipsum_extended);
 ````
-
-
-## Add JustifiedTextView to your project
-
-JustifiedTextView is available on Maven Central. Please make sure you're using the latest version by [checking here](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.codesgood%22%20AND%20a%3A%22justifiedtextview%22)
-
-Gradle:
-```
-implementation 'com.codesgood:justifiedtextview:1.1.0'
-```
-
-Maven:
-```
-<dependency>
-    <groupId>com.codesgood</groupId>
-    <artifactId>justifiedtextview</artifactId>
-    <version>1.1.0</version>
-</dependency>
-```
 
 
 ## Thanks
