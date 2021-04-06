@@ -2,13 +2,14 @@ package com.codesgood.justifiedtextview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import com.codesgood.justifiedtextview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        tv_justified_paragraph.setText(R.string.lorem_ipsum_extended)
+        binding.tvJustifiedParagraph.setText(R.string.lorem_ipsum_extended)
     }
 }
